@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import classes from './Banner.module.css';
 import Search from './Search/Search';
+import classes from './Banner.module.css';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 
