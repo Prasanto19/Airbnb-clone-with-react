@@ -7,6 +7,7 @@ import { Button } from '@material-ui/core';
 function Banner() {
   const history = useNavigate();
   const [showSearch, setShowSearch] = useState(false);
+
   return (
     <div className={classes.banner}>
       <div className={classes.banner__search}>
