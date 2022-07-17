@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import classes from './SearchResult.module.css';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
