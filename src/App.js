@@ -1,8 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-
-import SearchPage from './SearchPage';
+import SearchPage from './components/SearchPage/SearchPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 function App() {
