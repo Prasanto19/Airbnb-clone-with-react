@@ -1,6 +1,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+
+import SearchPage from './SearchPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 function App() {
@@ -8,6 +10,9 @@ function App() {
     <div className="app">
       <Router>
         <Header />
+        <Routes>
+          <Route path="/search" element={<SearchPage />} />
+        </Routes>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

@@ -1,11 +1,11 @@
 import React from 'react';
-import './SearchPage.css';
+import classes from './SearchPage.module.css';
 import { Button } from '@material-ui/core';
 
 function SearchPage() {
   return (
-    <div className="searchPage">
-      <div className="searchPage__info">
+    <div className={classes.searchPage}>
+      <div className={classes.searchPage__info}>
         <p>62 stays · 26 august to 30 august · 2 guest</p>
         <h1>Stays nearby</h1>
         <Button variant="outlined">Cancellation Flexibility</Button>
